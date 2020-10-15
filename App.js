@@ -42,8 +42,8 @@ export default class screens extends Component {
                     latitude: 40.028921,
                     longitude: 32.7375997,
                 },
-                title: "Best Place",
-                description: "This is the best place in Portland",
+                title: "Taze domates",
+                description: "Ben domatesimi her zaman buradan alırım.",
                 image: Images[0],
             },
             {
@@ -51,8 +51,8 @@ export default class screens extends Component {
                     latitude: 41.039572,
                     longitude: 28.954157,
                 },
-                title: "Second Best Place",
-                description: "This is the second best place in Portland",
+                title: "Benzinci",
+                description: "Ben hep 50 liralık dolduruyorum.",
                 image: Images[1],
             },
             {
@@ -60,8 +60,8 @@ export default class screens extends Component {
                     latitude: 38.538160,
                     longitude:  27.131529,
                 },
-                title: "Third Best Place",
-                description: "This is the third best place in Portland",
+                title: "Dönerci",
+                description: "Şenol Dayımın işletmesi",
                 image: Images[2],
             },
             {
@@ -69,8 +69,8 @@ export default class screens extends Component {
                     latitude: 36.992271,
                     longitude: 35.325539,
                 },
-                title: "Fourth Best Place",
-                description: "This is the fourth best place in Portland",
+                title: "Kargo",
+                description: "Kargoyu yanlışlıkla buraya yolladım.",
                 image: Images[3],
             },
         ],
@@ -273,11 +273,11 @@ export default class screens extends Component {
                     <Animated.View style={[StyleSheet.absoluteFill, styles.cover, backdrop]}>
                         <View style={[styles.sheet]}>
                             <Animated.View style={[styles.popup, slideUp]}>
-                                <Text> TYpe Information about location </Text>
-                                <TextInput style={[styles.input]} placeholder="text" onChangeText={(title) => {
+                                <Text> Type Information about location </Text>
+                                <TextInput style={[styles.input]} placeholder="Title" onChangeText={(title) => {
                                     this.setState({title})
                                 }}/>
-                                <TextInput style={[styles.input]} placeholder="text" onChangeText={(description) => {
+                                <TextInput style={[styles.input]} placeholder="Description" onChangeText={(description) => {
                                     this.setState({description})
                                 }}/>
                                 <View

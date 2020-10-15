@@ -59,7 +59,7 @@ export const styles = StyleSheet.create({
         width: 20,
         height: 20,
         borderRadius: 100,
-        backgroundColor: "rgba(130,4,150, 0.9)",
+        backgroundColor: colors.accent,
     },
     triangle: {
         width: 0,

@@ -1,3 +1,4 @@
+
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -16,7 +17,7 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.3.tar.gz",
     "react-native-maps": "0.27.1",
     "react-native-popup-dialog": "^0.18.3",
-    "react-native-web": "~0.13.12",
+    "react-native-web": "~0.13.12"
 
   },
   "devDependencies": {
